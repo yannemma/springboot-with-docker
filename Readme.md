@@ -1,3 +1,21 @@
+## ARCHITECTURE DU PROJET
+
+![image](https://github.com/user-attachments/assets/377329f4-3d43-40a2-a896-2a8dd7f56c9d)
+
+Étape 1 – Enregistrez/transférez votre code sur GitHub
+
+Étape 2 – Extrayez votre code de GitHub vers votre serveur Jenkins
+
+Étape 3 – Utilisez l’outil de création Gradle/Maven pour créer les artefacts
+
+Étape 4 – Créer une image Docker
+
+Étape 5 – Envoyez votre dernière image Docker vers DockerHub
+
+Étape 6 – Extrayez la dernière image de DockerHub dans Jenkins.
+
+Étape 7 – Utilisez ensuite k8s-spring-boot-deployment.yml pour déployer votre application dans votre cluster Kubernetes.
+
 ## Configurer Minikube et Kubectl pour Jenkins :
 
 `sudo mkdir -p /var/lib/jenkins/.kube`
